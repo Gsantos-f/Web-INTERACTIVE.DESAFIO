@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/css/reset.css">
   <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/caixathanks.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
@@ -15,7 +16,7 @@
   <main>
     
       <!-- Rating state start -->
-    <div class="caixa-box-principal">
+    <div class="caixa-box-principal visivel">
       <div class="caixa-box-subprincipal">
         <img src="/images/icon-star.svg">
         <h1>How did we do?</h1>
@@ -24,11 +25,11 @@
             to help us improve our offering!
         </p>
         <ul class="butoes-numeros">     
-            <li>1 </li>
-            <li>2 </li>
-            <li>3 </li> 
-            <li>4 </li>
-            <li>5 </li>      
+            <li class="">1 </li>
+            <li class="">2 </li>
+            <li class="">3 </li> 
+            <li class="selecionado">4 </li>
+            <li class="">5 </li>      
         </ul>
         <div class="input">
           <input type="submit" value="SUBMIT">    
@@ -37,18 +38,19 @@
         <!-- Rating state end -->
       
         <!-- Thank you state start -->
-    <div class="caixa-box-secundaria">
-      <div>
-        
-          You selected <!-- Add rating here --> out of 5
-        
-          Thank you!
-        
+    </div>
+    <div class="caixa-box-secundaria ">
+      <div class="box-secundaria-conteudo">
+        <img src="images/illustration-thank-you.svg" alt="thanks you">
+        <div class="rating">
+          You selected <span>2</span> out of 5
+        </div>
+        <h1>Thank you!</h1>
+        <p>
           We appreciate you taking the time to give a rating. If you ever need more support, 
           don’t hesitate to get in touch!
-        
+        </p>
       </div>
-    </div>
     </div>
       <!-- Thank you state end -->
     
