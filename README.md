@@ -11,10 +11,15 @@ PAGE: https://gsantos-f.github.io/Web-INTERACTIVE.DESAFIO/
  ▣ CSS
  
 ## ◉ 🖼️IMAGES
+<div align="center">
+ <img height="400px"  src="https://user-images.githubusercontent.com/101200460/162077803-5e845eab-940a-42eb-a048-d863851ab8e3.gif" alt="interactive desafio">
+ <img height="41px"  src="https://user-images.githubusercontent.com/101200460/162078380-f80152f6-c1d0-49e0-b38a-eaeb53b07778.png" alt="interactive desafio2">
+ <img src="https://user-images.githubusercontent.com/101200460/162079052-cfba7e3c-42f4-46c4-98ec-ee7820ff085b.png">
+ <img src="https://user-images.githubusercontent.com/101200460/162079056-98e9fb83-0ce7-44af-bcf6-d6d89576ad55.png">
 
-<img src="" alt="QRCODE">
+</div>
 
-# Frontend Mentor - QR code component solution
+## Frontend Mentor - QR code component solution
 
 [MY FRONTEND-MENTOR LINK](https://www.frontendmentor.io/profile/Gsantos-f)
 
