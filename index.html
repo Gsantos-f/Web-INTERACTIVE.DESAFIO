@@ -16,7 +16,7 @@
   <main>
     
       <!-- Rating state start -->
-    <div class="caixa-box-principal visivel">
+    <div class="caixa-box-principal visivel" id="caixaPrincipal">
       <div class="caixa-box-subprincipal">
         <img src="/images/icon-star.svg">
         <h1>How did we do?</h1>
@@ -24,22 +24,22 @@
             Please let us know how we did with your support request. All feedback is appreciated 
             to help us improve our offering!
         </p>
-        <ul class="butoes-numeros">     
-            <li class="">1 </li>
-            <li class="">2 </li>
-            <li class="">3 </li> 
-            <li class="selecionado">4 </li>
-            <li class="">5 </li>      
+        <ul class="botoes-numeros">     
+            <li id="1" onclick="botaoUm()">1 </li>
+            <li id="2" onclick="botaoDois()">2 </li>
+            <li id="3" class="selecionado" onclick="botaoTres()">3 </li> 
+            <li id="4" onclick="botaoQuatro()">4 </li>
+            <li id="5" onclick="botaoCinco()">5 </li>      
         </ul>
         <div class="input">
-          <input type="submit" value="SUBMIT">    
+          <input type="submit" value="SUBMIT" onclick="submit()">    
         </div>
       </div>
         <!-- Rating state end -->
       
         <!-- Thank you state start -->
     </div>
-    <div class="caixa-box-secundaria ">
+    <div class="caixa-box-secundaria">
       <div class="box-secundaria-conteudo">
         <img src="images/illustration-thank-you.svg" alt="thanks you">
         <div class="rating">
@@ -60,5 +60,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Gsantos-f">Gsantos-f</a>.
   </div>
+  <script src="js/index.js"></script>
 </body>
 </html>

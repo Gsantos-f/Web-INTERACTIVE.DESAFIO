@@ -37,4 +37,13 @@
 }
 .visivel{
     display: flex;
+    animation: animation 1s;
+}
+@keyframes animation {
+    to{
+        opacity: 100%;
+    }
+    from{
+        opacity: 0%;
+    }
 }

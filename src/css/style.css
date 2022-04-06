@@ -43,14 +43,14 @@ main{
 
 }
 /* botoes e input */
-.butoes-numeros{
+.botoes-numeros{
     margin: 25px 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     font-size: 15px;
 }
-.butoes-numeros li{
+.botoes-numeros li{
     cursor: pointer;
     background-color: #262d37;
     padding: 13px 18px;
@@ -74,11 +74,11 @@ main{
     color:hsl(25, 97%, 53%);
     background-color: #ffffff;
 }
-.butoes-numeros li:active{
+.botoes-numeros li:active{
     background-color: hsl(25, 97%, 53%);
     color: #ffffff;
 }
-.butoes-numeros .selecionado{
+.botoes-numeros .selecionado{
     background-color: hsl(217, 12%, 63%);
     color: #ffffff;
 
